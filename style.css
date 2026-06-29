@@ -1,0 +1,111 @@
+/*======================================
+        COSMIC TEAL THEME
+        By Mayra #170501
+======================================*/
+
+/* Background */
+
+body{
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(2,12,16,.65)),
+url("https://raw.githubusercontent.com/cajolaismylia2-collab/Light-teal-css/main/IMG_3583.jpg")
+center center fixed!important;
+background-size:cover!important;
+color:#d9ffff!important;
+}
+
+/* Main */
+
+#main,.container,.container.main{
+background:transparent!important;
+}
+
+/* Cards */
+
+.card,.table,.box,.breadcrumb,.alert,.feature,.modal-content,.dropdown-menu,.left,.right,.den-box,.user-box{
+background:rgba(6,14,18,.78)!important;
+border:1px solid rgba(79,226,223,.18)!important;
+border-radius:12px;
+backdrop-filter:blur(6px);
+box-shadow:0 0 18px rgba(0,255,255,.08);
+}
+
+/* Headers */
+
+.card-header,th,.navbar{
+background:linear-gradient(90deg,#06272d,#0d4f56)!important;
+color:#d9ffff!important;
+border:none!important;
+}
+
+/* Text */
+
+h1,h2,h3,h4,h5{
+color:#c9ffff!important;
+text-shadow:0 0 10px rgba(73,255,239,.35);
+}
+
+p,span,td,div{
+color:#d5f8f8!important;
+}
+
+/* Links */
+
+a{
+color:#6ef7f0!important;
+transition:.25s;
+}
+
+a:hover{
+color:#d9ffff!important;
+text-shadow:0 0 10px #4ff2e7;
+}
+
+/* Buttons */
+
+.btn,button,input[type=submit]{
+background:linear-gradient(#0d6b74,#06373c)!important;
+border:1px solid #4fe2df!important;
+color:#fff!important;
+}
+
+.btn:hover,
+button:hover,
+input[type=submit]:hover{
+background:linear-gradient(#17a3ad,#0a5860)!important;
+box-shadow:0 0 18px rgba(79,242,231,.4);
+}
+
+/* Inputs */
+
+input,textarea,select{
+background:rgba(3,12,16,.8)!important;
+border:1px solid rgba(79,226,223,.2)!important;
+color:#d9ffff!important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{width:10px;}
+::-webkit-scrollbar-track{background:#030b0d;}
+::-webkit-scrollbar-thumb{
+background:linear-gradient(#19d8d2,#06565c);
+border-radius:20px;
+}
+
+/* Credit */
+
+html::before{
+content:"Made by: Mayra #170501";
+position:fixed;
+top:10px;
+right:10px;
+padding:6px 12px;
+background:rgba(5,15,20,.85);
+border:1px solid rgba(79,226,223,.25);
+border-radius:999px;
+color:#d9ffff;
+font-size:12px;
+z-index:9999;
+pointer-events:none;
+}
